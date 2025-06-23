@@ -73,6 +73,12 @@ function Navigation({ parentToChild, modeChange }: any) {
       </p>
       <Divider />
       <List>
+        <ListItemButton
+          sx={{ textAlign: "center" }}
+          onClick={() => window.open("https://blog.siruichen.me", "_blank")}
+        >
+          <ListItemText primary="Blog" />
+        </ListItemButton>
         {navItems.map((item) => (
           <ListItem key={item[0]} disablePadding>
             <ListItemButton
