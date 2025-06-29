@@ -10,14 +10,14 @@ function Project() {
       <div className="projects-grid">
         <div className="project">
           <a
-            href="https://github.com/NewBie333-dev/WorldWise"
+            href="https://csrworldwise.netlify.app/"
             target="_blank"
             rel="noreferrer"
           >
             <img src={mock01} className="zoom" alt="thumbnail" width="100%" />
           </a>
           <a
-            href="https://github.com/NewBie333-dev/WorldWise"
+            href="https://csrworldwise.netlify.app/"
             target="_blank"
             rel="noreferrer"
           >
